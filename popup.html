@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feed Finder</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Feed Finder</h1>
+    <div id="loading" class="loading">Searching for feeds...</div>
+    <div id="no-feeds" class="message hidden">No feeds found on this page.</div>
+    <div id="feeds-container" class="hidden">
+      <p class="found-count"><span id="feed-count">0</span> feed(s) found:</p>
+      <ul id="feeds-list"></ul>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
